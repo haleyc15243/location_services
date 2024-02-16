@@ -4,7 +4,7 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:8.2.0'
+        classpath 'com.android.tools.build:gradle:8.2.2'
     }
 }
 
@@ -43,7 +43,6 @@ dependencies {
 
     implementation libs.core.ktx
     implementation libs.appcompat
-    implementation libs.material
     implementation 'com.google.android.gms:play-services-maps:18.2.0'
     implementation 'com.google.android.gms:play-services-location:21.1.0'
     testImplementation libs.junit
